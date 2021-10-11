@@ -108,11 +108,11 @@
 					<a
 						target="_blank"
 						href={$dataProfile.html_url}
-						class="flex md:grid md:grid-cols-10 xl:flex space-x-3 items-center"
+						class="flex md:grid md:grid-cols-10 xl:flex space-x-3 items-center overflow-x-hidden"
 					>
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
-							class="h-5 w-5 dark:text-gray-100 text-gray-900"
+							class="h-5 w-5 min-w-5 dark:text-gray-100 text-gray-900"
 							fill="none"
 							viewBox="0 0 24 24"
 							stroke="currentColor"

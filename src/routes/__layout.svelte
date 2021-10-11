@@ -1,0 +1,8 @@
+<slot />
+
+<style>
+	@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700;900&display=swap");
+	@tailwind base;
+	@tailwind components;
+	@tailwind utilities;
+</style>

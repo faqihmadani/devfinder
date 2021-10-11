@@ -27,23 +27,28 @@
 							src={$dataProfile.avatar_url}
 							alt="profil"
 						/>
-						<div class="col-span-2">
-							{#if $dataProfile.name}
-								<h1 class="font-semibold text-lg sm:text-2xl">
-									{$dataProfile.name}
-								</h1>
-							{:else}
-								<h1 class="font-semibold text-lg sm:text-2xl">
-									{$dataProfile.login}
-								</h1>
-							{/if}
+						<div class="col-span-2 md:col-span-3">
+							<div class="md:flex md:justify-between md:items-center">
+								{#if $dataProfile.name}
+									<h1 class="font-semibold text-lg sm:text-2xl">
+										{$dataProfile.name}
+									</h1>
+								{:else}
+									<h1 class="font-semibold text-lg sm:text-2xl">
+										{$dataProfile.login}
+									</h1>
+								{/if}
+								<h3 class="text-sm  hidden  md:block">
+									Joined {$date}
+								</h3>
+							</div>
 							<a
 								href={$dataProfile.html_url}
 								target="_blank"
 								class="text-sm text-indigo-600  inline-block mt-2"
 								>@{$dataProfile.login}</a
 							>
-							<h3 class="text-sm mt-4">
+							<h3 class="text-sm mt-4 md:hidden">
 								Joined {$date}
 							</h3>
 						</div>
@@ -53,6 +58,8 @@
 					<p class="mt-5 text-sm leading-relaxed">
 						{$dataProfile.bio}
 					</p>
+				{:else}
+					<p class="mt-5 text-sm leading-relaxed">This profile has no bio</p>
 				{/if}
 				<div
 					class="dark:bg-gray-900 bg-blue-50 p-5 rounded-lg mt-5 grid grid-cols-3 gap-x-4"

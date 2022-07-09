@@ -1,38 +1,14 @@
-# create-svelte
+# Trivia Games App
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+![Svelte](https://img.shields.io/badge/svelte-%23f1413d.svg?style=for-the-badge&logo=svelte&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
 
-## Creating a project
+Sebuah app yang digunakan untuk mencari profil dari github seseorang dan menyajikan informasi penting dari akun github tersebut. Dibuat menggunakan SvelteKit, Tailwind CSS dan Vercel. API yang saya gunakan adalah API yang disediakan oleh github itu sendiri pada [link ini](https://api.github.com/).
 
-If you're seeing this, you've probably already done this step. Congrats!
+[Link menuju demo page](https://devfinder-alpha.vercel.app/)
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
-
-# create a new project in my-app
-npm init svelte@next my-app
-```
-
-> Note: the `@next` is temporary
-
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
-
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+### Secreenshots
+![dev1](https://user-images.githubusercontent.com/76164968/178094131-2935d87c-dd88-44a7-b3fe-4aa8a5e97d13.PNG)
+![dev2](https://user-images.githubusercontent.com/76164968/178094129-5a688335-4269-4d89-a93b-4ed6a6845484.PNG)
+![dev3](https://user-images.githubusercontent.com/76164968/178094126-3cf4eae8-9410-442b-8abb-04d8afcd3634.PNG)
